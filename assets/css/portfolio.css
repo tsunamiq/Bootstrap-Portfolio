@@ -1,0 +1,167 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+ 	margin-bottom:400px;
+ 	background-image:url("../images/paper_1.png");	
+
+
+}
+
+h1{
+	margin-left:30px;
+	margin-bottom:0;
+	background-color: #426e86;
+	padding:10px 5px 10px 20px;
+	color:white;
+	width:350px;
+}
+
+h2{
+	color:#426e86;
+}
+
+h3{
+	color:#426e86;
+}
+
+p{
+	padding-left:10px;
+}
+
+nav{
+	float:right;
+	margin-top:40px;
+	margin-bottom:0;
+}
+
+a:hover{
+	color:#2f3131;
+	background:lightgrey;
+	opacity: .7;
+	transition: background 0.5s ease-in-out;
+	text-decoration: none;
+	
+}
+
+/*.button-submit {
+    background: #5ea12b;
+    transition: background 0.5s ease-in-out;
+}
+And on hover, change the background color to little darker tone.
+
+.button-submit:hover {
+     background: #000;
+}*/
+
+
+
+.hd-ul-style{
+	padding-top:35px;
+
+}
+
+img.profile-pic{
+	float:left;
+	padding:10px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #2f3131;
+  text-align:center;
+  padding-top:10px;
+}
+
+
+.header-style{
+	margin:0 auto;
+	width:100%;
+	background-color:white;
+	border-bottom-style:solid;
+	border-bottom-width: 2px;
+	border-bottom-color:#cccccc;
+}
+
+/* container /w about me header and text*/
+.main-content-style{
+	border-style:solid;
+	border-color:#dddddd;
+	border-width:2px;
+	background-color:#ffffff;
+	margin-left:45px;
+	margin-top:30px;
+	max-width:650px;
+}
+
+/* container /w contact header and links*/
+.connect-content-style{
+	border-style:solid;
+	border-color:#dddddd;
+	border-width:2px;
+	background-color:#ffffff;
+	margin-left:45px;
+	margin-top:30px;
+	padding-bottom:30px;
+	width:270px;
+	text-align:center;
+}
+
+.connect-hr{
+	width:220px;
+}
+
+img.port-size{
+	width:250px;
+	height:160px;
+}
+
+h3.p-pic-label{
+	width:250px;
+	margin-top:0px;
+	margin-left:0;
+	background-color:#426e86;
+	text-align:center;
+	position:relative;
+	bottom:40px;
+	opacity: .8;
+	color:white ;
+
+}
+
+.pic-margin{
+	margin-right:10px;
+	margin-left:10px;
+}
+/**
+
+<nav  class="navbar navbar-default">
+  							<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    							<div class="navbar-header">
+      								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        							<span class="sr-only">Toggle navigation</span>
+								        <span class="icon-bar"></span>
+								        <span class="icon-bar"></span>
+								        <span class="icon-bar"></span>
+      								</button>
+      							 </div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+    							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      								<ul class="nav navbar-nav navbar-right">
+								        <li><a href="#">Home</a></li>
+								        <li><a href="#">Cast</a></li>
+								        <li><a href="#">Episodes</a></li>
+								    </ul>
+    							</div><!-- /.navbar-collapse -->
+  							</div><!-- /.container-fluid -->
+						</nav>
+
+**/
